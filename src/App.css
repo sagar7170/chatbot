@@ -1,0 +1,39 @@
+.Chatgpt-container{
+  position: relative;
+  height: 760px;
+  display: flex;
+  justify-content: center;
+  width: auto;
+  margin-top: 10px;
+}
+
+.scrollbar-container{
+  background-color: antiquewhite;
+  color: black;
+  font-weight: bold;
+}
+.cs-main-container{
+ width: 40%;
+}
+
+.cs-message__content{
+  background-color: hotpink !important;
+  color: white !important;
+  
+}
+
+.fa-paperclip{
+  display: none;
+}
+
+.cs-message__html-content{
+  font-weight: 500;
+}
+
+@media only screen and (max-width:600px){
+ .Chatgpt-container{
+  height:750px !important;
+  width: auto;
+ } 
+}
+
